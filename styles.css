@@ -1,0 +1,29 @@
+@font-face {
+  font-family: monofur;
+  src: url(fonts/monofur/monof55.ttf);
+}
+
+@font-face {
+  font-family: monofur;
+  src: url(fonts/monofur/monof56.ttf);
+  font-style: italic;
+}
+
+body {
+  font-family: monofur;
+  background-image: url(cloud.png);
+  background-size: auto 100vh;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  animation: animatedBackground 120s linear infinite;
+}
+
+@keyframes animatedBackground {
+  from {
+    background-position-x: 0;
+  }
+
+  to {
+    background-position-x: -160vh;
+  }
+}
