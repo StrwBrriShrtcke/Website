@@ -9,6 +9,16 @@
   font-style: italic;
 }
 
+@font-face {
+  font-family: tendrilis;
+  src: url(fonts/tendrilis/Tendrilis-Regular.ttf);
+  font-style: tendrilis
+}
+
+.tendrilis {
+  font-family: tendrilis;
+}
+
 body {
   font-family: monofur;
   background-image: url(cloud.png);
