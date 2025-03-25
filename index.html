@@ -8,100 +8,86 @@
   <link rel="stylesheet" href="styles.css">
   <style type="text/tailwindcss">
 
-    div {
-        @apply py-2 px-4 rounded-lg bg-fuchsia-50/90 text-center pt-8 pb-8 pl-8 pr-8 mt-10 mb-10 ml-45 mr-45;
+
+    .tendrilis {
+      font-family: tendrilis;
+      @apply text-xl text-green-700;
+    }
+
+    article {
+      @apply py-8 px-16 rounded-lg bg-fuchsia-50/90 text-center mx-auto max-w-4xl;
     }
     h2 {
       @apply text-xl;
-    }
-    h3 {
-      @apply text-xl text-green-700;
     }
   </style>
 
   <title>Jia Wei's Website!</title>
 </head>
 
-<body>
-  <div>
+<body class="flex flex-col gap-y-8">
+  <article class="mt-16">
     <h1 class="text-2xl text-center">Hi, I'm Jia Wei!<h1>
-        <h3 class="tendrilis">Hi,I'm/Jia/Wei</h2>
-          <p>I graduated polytechnic in 2023 and I'm applying for a degree in Computer Science in 2025.
-            To prepare for university, I have been studying Alevel mathematics and praticing my coding skill through
-            doing
-            Advent of Code and Rosalind.
-            In August of 2024, I had my first exposure to coding via Scratch JR and as I continued learning
-            more about programming, I realised my passion for coding. With my new found desire to study computer science
-            in
-            university, I began learning several languages and even attended my first hackathon, all while balancing a
-            full-time
-            job &#128560;
-          </p>
+        <div class="tendrilis">Hi,I'm/Jia/Wei</div>
+        <p>I graduated polytechnic in 2023 and I'm applying for a degree in Computer Science in 2025.
+          To prepare for university, I have been studying Alevel mathematics and praticing my coding skill through
+          doing
+          Advent of Code and Rosalind.
+          In August of 2024, I had my first exposure to coding via Scratch JR and as I continued learning
+          more about programming, I realised my passion for coding. With my new found desire to study computer science
+          in
+          university, I began learning several languages and even attended my first hackathon, all while balancing a
+          full-time
+          job &#128560;
+        </p>
 
-          <p>When I'm not working or coding, like to spend my free time dancing and going to the gym. A fun fact about
-            myself is
-            that I can do
-            1 pull up &#x1F4AA &#x1F60C;
-          </p>
-  </div>
-  <div>
+        <p>When I'm not working or coding, like to spend my free time dancing and going to the gym. A fun fact about
+          myself is
+          that I can do
+          1 pull up &#x1F4AA &#x1F60C;
+        </p>
+  </article>
+  <article>
     <h2>Scratch Jr</h2>
-    <h3 class="tendrilis">Scratch/Junior!</h3>
+    <div class="tendrilis">Scratch/Junior!</div>
     <p>The thing that started it <strong>all</strong>.Initially, I started playing around with Scratch JR out of
       curiosity and a sense of nostalgia. Back in my primary school days, one of the post PSLE activities we indulged in
       was programming in a similar style as Scartch JR. I remember enjoying programming when I first tried it but never
       pursued it further. However in revisiting coding, I realised that I have s strong desire to pursue it. </p>
-  </div>
-  <ul>
-    <li>When I started</li>
-    <li>How I got started</li>
-    <li>What I learned (Baisc concepts of coding)</li>
-    <li>Include video of what I made?</li>
-  </ul>
+  </article>
 
-  <h2>Scratch</h2>
-  <ul>
-    <li>Learned about booleans and Variables</li>
-  </ul>
+  <article>
+    <h2>Structure and Interpretation of Computer Programs</h2>
+    <div class="tendrilis">SICP/made/me/wanna/vomit/blood</div>
+    <p> Learned the basics of functional programming through SICP. I found it to be very difficult at the begining but
+      as I
+      progressed, I had a better grasp of the concepts.</p>
+  </article>
 
-  <h2>SICP</h2>
-  <ul>
-    <li>Continued learning about booleans</li>
-    <li>Learnes about && and || operators</li>
-    <li>Learned about Conditional Expressions and Predicates</li>
-    <li>Learned how to write a funtion</li>
-    <li>Iterative and recursive function</li>
-    <li>Lamba expression</li>
-    <li>Show some code I have written for SICP qns?</li>
-  </ul>
+  <article>
+    <h2>Hacktoberfest</h2>
+    <div class="tendrilis">Hacktoberfest!</div>
+    <p>I decided to participate in Hacktoberfest to learn how to use github and how to contribute to open source
+      projects. I even managed to get all 4 badges!
+  </article>
 
-  <h2>Hacktoberfest</h2>
-  <ul>
-    <li>Learned github pull request</li>
-    <li> Learned how to contribute to open ssource projects</li>
-    <li>Got all 4 hacktoberfest badge</li>
-  </ul>
+  <article>
+    <h2>Exercism</h2>
+    <div class="tendrilis">Excercism/and/Javascript</div>
+    <p> Learned my first programming language through Exercism! Going from SICP to actually coding in Javascript was a
+      difficult switch initially but as I continued practicing, I became more familiar and comfortable with Javascript.
+    </p>
+  </article>
 
-  <h2>Exercism</h2>
-  <ul>
-    <li>Learned how to actually write JS</li>
-    <li>learned about Array, objects & keys, Regex</li>
-    <li>Learned about MAP, array methods, loops, object oriented programming, class, promises</li>
-  </ul>
-
-  <h2>Chrome extension tutorial</h2>
-  <ul>
-    <li>Learned how to create a basic chrome extension</li>
-    <li>Learned chrome API</li>
-    <li>Include link to github repo for chrome tutorial?</li>
-  </ul>
-
-  <h2>HacknRoll</h2>
-  <ul>
-    <li>Talk about hackathon and what we made</li>
-    <li>Include link to devpost?</li>
-    <li>Include link to github repo</li>
-  </ul>
+  <article>
+    <h2>NUS HacknRoll</h2>
+    <div class="tendrilis">NUS/Hacknroll</div>
+    <p>Attended my first ever hackathon in January 2025! I started preparing for it in December 2024 by learning how to
+      create a Chrome browser extension and learning how to use the API. Along with 3 friends, we created a browser
+      extension with me spearheading the front and backend development.The browser extension is a UX testing framework
+      for websites, incorporating LLMs and web-scraping. Although this was a stressful experience, I thoroughly enjoyed
+      it and am looking forward to participating in more hackathons!</p>
+  </article>
 
 </body>
 
