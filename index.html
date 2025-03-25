@@ -8,6 +8,12 @@
   <link rel="stylesheet" href="styles.css">
   <style type="text/tailwindcss">
 
+    body {
+      font-family: monofur;
+      background-image: url(cloud.png);
+      background-size: auto 100vh;
+      animation: animatedBackground 120s linear infinite;
+    }
 
     .tendrilis {
       font-family: tendrilis;
@@ -25,7 +31,7 @@
   <title>Jia Wei's Website!</title>
 </head>
 
-<body class="flex flex-col gap-y-8">
+<body class="flex flex-col gap-y-8 bg-fixed">
   <article class="mt-16">
     <h1 class="text-2xl text-center">Hi, I'm Jia Wei!<h1>
         <div class="tendrilis">Hi,I'm/Jia/Wei</div>
