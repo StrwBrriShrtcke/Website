@@ -8,16 +8,14 @@
   <link rel="stylesheet" href="styles.css">
   <style type="text/tailwindcss">
 
-    body::before {
+    body {
       font-family: monofur;
-      background-image: url(cloud.png);
+      background-image: url("./cloud.png");
       background-size: auto 100vh;
       animation: animatedBackground 120s linear infinite;
-      z-index: -10;
-  
-        @apply bg-fixed
+      @apply bg-fixed
     }
-
+ 
     .tendrilis {
       font-family: tendrilis;
       @apply text-xl text-green-700;
@@ -35,10 +33,9 @@
 </head>
 
 <body>
-  <div>
-10:27:25 AM
-
-  </div>
+  <article>
+    10:50:40 AM
+  </article>
   <div class="flex flex-col gap-y-8">
     <article class="mt-16">
       <h1 class="text-2xl text-center">Hi, I'm Jia Wei!<h1>
