@@ -10,12 +10,21 @@
 
     body {
       font-family: monofur;
-      background-image: url("./cloud.png");
-      background-size: auto 100vh;
-      animation: animatedBackground 120s linear infinite;
-      @apply bg-fixed
     }
- 
+
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-image: url(cloud.png);
+      background-size: auto 100vh;
+      z-index: -10;
+      animation: animatedBackground 120s linear infinite;
+    }
+
     .tendrilis {
       font-family: tendrilis;
       @apply text-xl text-green-700;
@@ -34,7 +43,7 @@
 
 <body>
   <article>
-    10:50:40 AM
+    10:58:48 AM
   </article>
   <div class="flex flex-col gap-y-8">
     <article class="mt-16">
