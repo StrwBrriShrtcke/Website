@@ -8,11 +8,12 @@
   <link rel="stylesheet" href="styles.css">
   <style type="text/tailwindcss">
 
-    body {
+    html {
       font-family: monofur;
       background-image: url(cloud.png);
       background-size: auto 100vh;
       animation: animatedBackground 120s linear infinite;
+      @apply bg-fixed
     }
 
     .tendrilis {
@@ -31,8 +32,7 @@
   <title>Jia Wei's Website!</title>
 </head>
 
-<body class="flex flex-col gap-y-8 bg-fixed bg-repeat-x">
-<div>
+<body class="flex flex-col gap-y-8">
   <article class="mt-16">
     <h1 class="text-2xl text-center">Hi, I'm Jia Wei!<h1>
         <div class="tendrilis">Hi,I'm/Jia/Wei</div>
@@ -58,8 +58,10 @@
     <h2>Scratch Jr</h2>
     <div class="tendrilis">Scratch/Junior!</div>
     <p>The thing that started it <strong>all</strong>.Initially, I started playing around with Scratch JR out of
-      curiosity and a sense of nostalgia. Back in my primary school days, one of the post PSLE activities we indulged in
-      was programming in a similar style as Scartch JR. I remember enjoying programming when I first tried it but never
+      curiosity and a sense of nostalgia. Back in my primary school days, one of the post PSLE activities we indulged
+      in
+      was programming in a similar style as Scartch JR. I remember enjoying programming when I first tried it but
+      never
       pursued it further. However in revisiting coding, I realised that I have s strong desire to pursue it. </p>
   </article>
 
@@ -82,20 +84,22 @@
     <h2>Exercism</h2>
     <div class="tendrilis">Excercism/and/Javascript</div>
     <p> Learned my first programming language through Exercism! Going from SICP to actually coding in Javascript was a
-      difficult switch initially but as I continued practicing, I became more familiar and comfortable with Javascript.
+      difficult switch initially but as I continued practicing, I became more familiar and comfortable with
+      Javascript.
     </p>
   </article>
 
   <article>
     <h2>NUS HacknRoll</h2>
     <div class="tendrilis">NUS/Hacknroll</div>
-    <p>Attended my first ever hackathon in January 2025! I started preparing for it in December 2024 by learning how to
+    <p>Attended my first ever hackathon in January 2025! I started preparing for it in December 2024 by learning how
+      to
       create a Chrome browser extension and learning how to use the API. Along with 3 friends, we created a browser
       extension with me spearheading the front and backend development.The browser extension is a UX testing framework
-      for websites, incorporating LLMs and web-scraping. Although this was a stressful experience, I thoroughly enjoyed
+      for websites, incorporating LLMs and web-scraping. Although this was a stressful experience, I thoroughly
+      enjoyed
       it and am looking forward to participating in more hackathons!</p>
   </article>
-</div>
 </body>
 
 </html>
