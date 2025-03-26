@@ -8,12 +8,13 @@
   <link rel="stylesheet" href="styles.css">
   <style type="text/tailwindcss">
 
-    html {
+    body::before {
       font-family: monofur;
       background-image: url(cloud.png);
       background-size: auto 100vh;
       animation: animatedBackground 120s linear infinite;
-      transform: translate3d(0,0,0);
+      z-index: -10;
+  
         @apply bg-fixed
     }
 
@@ -34,6 +35,10 @@
 </head>
 
 <body>
+  <div>
+10:27:25 AM
+
+  </div>
   <div class="flex flex-col gap-y-8">
     <article class="mt-16">
       <h1 class="text-2xl text-center">Hi, I'm Jia Wei!<h1>
